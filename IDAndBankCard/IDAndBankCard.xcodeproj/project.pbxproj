@@ -419,7 +419,7 @@
 					94AB680F1E8A2F4C002F1D78 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HEN4V589P6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					94AB68281E8A2F4C002F1D78 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -702,7 +702,7 @@
 			baseConfigurationReference = 2BFB510CFC5CDD1AF3E5E137 /* Pods-IDAndBankCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = HEN4V589P6;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = NO;
@@ -716,7 +716,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxl.IDAndBankCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "6c38b3cc-50b8-4320-acc3-b0080164b5b9";
+				PROVISIONING_PROFILE_SPECIFIER = bank_hoc;
 			};
 			name = Debug;
 		};
@@ -725,7 +726,7 @@
 			baseConfigurationReference = 5641D985A9F2E5AE67883AA2 /* Pods-IDAndBankCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = HEN4V589P6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = IDAndBankCard/Info.plist;
@@ -738,7 +739,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxl.IDAndBankCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "6c38b3cc-50b8-4320-acc3-b0080164b5b9";
+				PROVISIONING_PROFILE_SPECIFIER = bank_hoc;
 			};
 			name = Release;
 		};
