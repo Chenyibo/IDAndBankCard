@@ -702,7 +702,8 @@
 			baseConfigurationReference = 2BFB510CFC5CDD1AF3E5E137 /* Pods-IDAndBankCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: WANFANG DATA CO.,LTD. (HEN4V589P6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: WANFANG DATA CO.,LTD. (HEN4V589P6)";
 				DEVELOPMENT_TEAM = HEN4V589P6;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = NO;
@@ -726,7 +727,8 @@
 			baseConfigurationReference = 5641D985A9F2E5AE67883AA2 /* Pods-IDAndBankCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: WANFANG DATA CO.,LTD. (HEN4V589P6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: WANFANG DATA CO.,LTD. (HEN4V589P6)";
 				DEVELOPMENT_TEAM = HEN4V589P6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = IDAndBankCard/Info.plist;
