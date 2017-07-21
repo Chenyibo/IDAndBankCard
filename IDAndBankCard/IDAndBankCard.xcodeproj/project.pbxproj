@@ -418,7 +418,8 @@
 				TargetAttributes = {
 					94AB680F1E8A2F4C002F1D78 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = HEN4V589P6;
+						ProvisioningStyle = Automatic;
 					};
 					94AB68281E8A2F4C002F1D78 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -702,7 +703,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HEN4V589P6;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = IDAndBankCard/Info.plist;
@@ -725,7 +726,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HEN4V589P6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = IDAndBankCard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
