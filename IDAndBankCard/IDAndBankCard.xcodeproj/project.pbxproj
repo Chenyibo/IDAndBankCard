@@ -418,6 +418,7 @@
 				TargetAttributes = {
 					94AB680F1E8A2F4C002F1D78 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HEN4V589P6;
 						ProvisioningStyle = Automatic;
 					};
 					94AB68281E8A2F4C002F1D78 = {
@@ -701,7 +702,8 @@
 			baseConfigurationReference = 2BFB510CFC5CDD1AF3E5E137 /* Pods-IDAndBankCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HEN4V589P6;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = IDAndBankCard/Info.plist;
@@ -712,8 +714,9 @@
 					"$(PROJECT_DIR)/IDAndBankCard/libexidcard",
 					"$(PROJECT_DIR)/IDAndBankCard/bank_io/exbankcardcore",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mxl.IDAndBankCard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxl.IDAndBankCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -722,7 +725,8 @@
 			baseConfigurationReference = 5641D985A9F2E5AE67883AA2 /* Pods-IDAndBankCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HEN4V589P6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = IDAndBankCard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -732,8 +736,9 @@
 					"$(PROJECT_DIR)/IDAndBankCard/libexidcard",
 					"$(PROJECT_DIR)/IDAndBankCard/bank_io/exbankcardcore",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mxl.IDAndBankCard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxl.IDAndBankCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
